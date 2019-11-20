@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="author" content="Grupo Goal">
+	<meta name="Key words" content="artigos,esportes,goal">
+	<meta name="última atualização" content="26/09/2019">
+    <meta charset="UTF-8">
+    <title>Goal</title>
+    <link rel="stylesheet" type="text/css" href="goal - Mark I.css"/>
+	<link rel="icon" href="goallogo.png"/>
+</head>
+<body onload="slide1()">
+    <section><header>
+            <div id="cabeçalho">
+        </div>
+        <table id="tabela" border="0px" width="100%">
+            <tr>
+            <td><nav id="logo"> <img height="50px" height="50px" src="https://i.ibb.co/1TgghfG/goallogo.png"/></div></td>
+        <td width="auto"><nav class="links">
+            <center><font color="white">
+                <a href="#">Home</a>
+					</font>
+            </center></nav>
+        </td>
+        <td width="auto"><nav class="links">
+                <center><font color="white">
+                    <a href="#port">Portifólio</a>
+                    </font>
+                </center>
+            </nav></td>
+            <td width="auto"><nav class="links">
+                    <center><font color="white">
+                        <a href="#pro">Projeto</a>
+                        </font>
+                    </center>
+                </nav></td>
+                <td width="auto"><nav class="links">
+                        <center><font color="white">
+                            <a href="#cont">Contato</a>
+                            </font>
+                        </center>
+                    </nav></td>
+				<td width="350px"><nav class="links">
+                        <center><font color="white">
+                            <form action="#" width= method="get" accept-charset="utf-8">
+								<input type="text" name="pesquisar">
+								<button type="submit"><font face="arial"><B>Pesquisar<b></font></button></form>
+                            </font>
+                        </center>
+                    </nav></td>
+    </tr>
+        </table>
+    </header></section>
+    <br><br><br><br><br><br><br><br>
+    <section id="slideshow">
+        <center><a id="img"><img id="slideshow1"></a></center>
+
+          <script type="text/javascript">
+		function slide1(){
+		document.getElementById('slideshow1').src="slide1.jpeg";
+		setTimeout("slide2()",5000);
+		document.getElementById('img').href="#a1";
+		a
+		}
+		function slide2(){
+		document.getElementById('slideshow1').src="slide2.jpeg";
+		setTimeout("slide3()",5000);
+		document.getElementById('img').href="#a2";
+		}
+		function slide3(){
+		document.getElementById('slideshow1').src="slide3.jpeg";
+		setTimeout("slide4()",5000);
+		document.getElementById('img').href="#a3";
+		}
+		function slide4(){
+		document.getElementById('slideshow1').src="slide4.jpeg";
+		setTimeout("slide5()",5000);
+		document.getElementById('img').href="#a4";
+		}
+		function slide5(){
+		document.getElementById('slideshow1').src="slide5.jpeg";
+		setTimeout("slide1()",5000);
+		document.getElementById('img').href="#a5";
+		}
+		function Enviar(){
+		var nome=document.getElementById("nomeid");
+		if(nome.value!=""){
+			alert('Nada foi encontrado com "'+nome.value+'"!');
+	}
+}
+		</script>
+				</section><br><br id="a1"><br><br><br><hr><br><br>
+                <section class="colecoes">
+                        <nav class="nomes">Corrida</nav><br><br><br>
+                        <center><table border="0px">
+                            <tr>
+                                <td height="400px" width="400px"><img border="3px" class="image" height="400" width="400" src="corrida2.jpeg" /></td>
+                                <td height="400px" width="600px"><center><img border="3px" class="image" height="400px" width="640" src="kiti.jpeg"></center></td>
+                            </tr>
+                        </table></center><br><br><br>
+                </section><br><br id="a2"><br><br><hr><br><br>
+                <section class="colecoes">
+                        <nav class="nomes">Futebol</nav><br><br><br>
+                        <center><table border="0px">
+                            <tr>
+                                <td height="400px" width="400px"><img border="3px" class="image" height="400" width="400" src="chuts1.jpeg" /></td>
+                                <td height="400px" width="600px"><center><img border="3px" class="image" height="400px" width="640" src="futebol2.jpeg"></center></td>
+                            </tr>
+                        </table></center><br><br><br><br>
+                </section><br><br id="a3"><br><br><hr><br><br>
+                <section class="colecoes">
+                        <nav class="nomes">Basquete</nav><br><br><br>
+                        <center><table id="8000" border="0px">
+                            <tr>
+                                <td height="400px" width="400px"><img border="0px" class="image" height="400" width="400" src="baska1.jpeg" /></td>
+                                <td height="400px" width="400px"><img border="0px" class="image" height="400" width="400" src="baska2.jpeg" /></td>
+                                <td height="400px" width="400px"><img border="0px" class="image" height="400" width="400" src="baska3.jpeg" /></td>
+                            </tr>
+                        </table></center><br><br><br><br>
+                </section><br><br id="a4"><br><br><hr><br><br>
+                <section class="colecoes">
+                        <nav class="nomes">Outros Esportes</nav><br><br><br>
+                        <center><table border="0px">
+                            <tr>
+                                <td height="400px" width="400px"><img border="3px" class="image" height="400" width="400" src="expo.jpeg" /></td>
+                                <td height="400px" width="600px"><center><img border="3px" class="image" height="400px" width="640" src="olhaso.jpeg"></center></td>
+                            </tr>
+                        </table></center><br><br><br><br>
+                </section><br><br id="a5"><br><br><hr><br><br>
+                <section class="colecoes">
+                        <nav class="nomes">Games</nav><br><br><br>
+                        <center><table border="0px">
+                            <tr>
+                                <td height="400px" width="400px"><img border="3px" class="image" height="400" width="400" src="gami.jpeg" /></td>
+                                <td height="400px" width="600px"><center><img border="3px" class="image" height="400px" width="640" src="gami2.jpeg"></center></td>
+                            </tr>
+                        </table></center><br><br><br><br>
+                </section><br id="port"><br><br><br><hr></a><br><br>
+				 <section class="colecoes">
+                        <center><nav class="titulo">Portifólio</nav><br><br><br><br></center>
+						<p>Aqui está a nossa logo principal e variações.</p>
+						<br><BR><BR><BR><center>
+						 <center><table border="0px">
+                            <tr>
+                                <td height="300px" width="300px"><img border="3px" class="image" height="300px" width="300px" src="goallogo1.jpeg"></td>
+                                <td height="300px" width="300px"><img border="3px" class="image" height="300px" width="300px" src="goallogo2.jpeg"></td>
+								<td height="300px" width="300px"><img border="3px" class="image" height="300px" width="300px" src="goallogo3.jpeg"></td>
+                            </tr>
+                        </table></center>
+						<center><table border="0px">
+                            <tr>
+                                <td height="300px" width="300px"><img border="3px" class="image" height="300px" width="300px" src="goallogo4.jpeg"></td>
+                                <td height="300px" width="300px"><img border="3px" class="image" height="300px" width="300px" src="goallogo5.jpeg"></td>
+								<td height="300px" width="300px"><img border="3px" class="image" height="300px" width="300px" src="goallogo6.jpeg"></td>
+                            </tr>
+                        </table></center><br></center>
+                </section>
+               <br><br><br><br><br><br><br><br id="pro">
+                ><br><br><hr><br><br>
+				<section class="colecoes">
+                        <center><nav class="titulo">Projeto</nav><br><br><br><br><br></center>
+						<p> O nosso projeto da logo consistiu em achar algo elegante, ou clean, que voltasse á ideia de esportes em geral.</p>
+						<p> Fizemos várias logos, umas bem diferentes, e essa foi a melhor que tivemos, pois além de ser bonita e elegante, podemos usar algumas variações.</p>
+						<p> O site foi feito usando as cores da logo, e em um design estilo onepage. Usamos mais cores neutras, para dar enfoque as imagens e textos dele.</p>
+                </section><br id="cont"><br><hr><br><br>
+				<section class="colecoes">
+                        <center><nav class="titulo">Contato</nav><br></center>
+						<center>
+							<form name="menu_form">
+									<p class="forms">
+									<label form="name">Nome:</label>
+									<input type="text" id="nomeid" placeholder="Digite o seu nome" required="required" name="name"/>
+									</p>
+									<p class="forms">
+									<label for="e-mail">E-mail:</label>
+									<input type="e-mail" id="emailid" placeholder="Digite o seu email" required="required" name="email"/>
+									</p>
+									<p class="forms">
+									<textarea placeholder="Deixe seu comentário"></textarea>
+									</p>
+									<p class="submit">
+									<input type="submit" onclick="Enviar();" value="Enviar"/>
+									</p>
+							</form>
+						</center>
+						<script>
+						function Enviar(){
+	var nome=document.getElementById("nomeid");
+	if(nome.value!=""){
+		alert('Obrigado sr(a) '+nome.value+'! Os seus dados foram encaminhados com sucesso!');
+	}
+}
+						</script>
+				</section><br><br><br><br>
+						
+            <section class="rodape"><br><table>
+                <tr>
+                    <div class="footer">E-mail: davioliveirahs@gmail.com<br>
+                        Celular: (11) 95198-2768
+                    </div>
+                </tr>
+            </table><hr>
+            <div class="footer"><center>@Copyright2019 | Todos os direitos reservados.</center>
+            </div>
+        </section>
+</body>
+</html>
