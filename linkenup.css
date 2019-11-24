@@ -289,9 +289,12 @@ h1 {
 }
 
 #rodtable {
+	height: 10.15625vw;
 	color:#fff;
 	float:right;
 	margin-left:14.336917562724015vw;
+	margin-top:0.390625vw;
+	font-size:1.171875vw;
 }
 
 #rodcont {
@@ -332,7 +335,6 @@ h1 {
 	color:#fff;
 	background-color: #111719;
 	height: 0.9375vw;
-	font-size:0.78125vw;
+	font-size:0.625vw;
 	float:bottom;
-	margin-top:0.17301038062283736vh;
-} 
+}
