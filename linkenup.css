@@ -135,8 +135,8 @@ input[type=submit]:hover {
 }
 
 .flip-card {
-  width: 330px;
-  height: 150px;
+  width: 25.78125vw;
+  height: 11.71875vw;
 }
 
 .flip-card-inner {
@@ -175,9 +175,13 @@ input[type=submit]:hover {
   transform: rotateY(180deg);
 }
 
+h1 {
+	font-size:2.34375vw;
+}
+
 .portimg {
-	width:94%;
-	margin-top:15px;
+	width:23.4375vw;
+	margin-top:1.171875vw;
 }
 
 .overlay {
@@ -217,8 +221,8 @@ input[type=submit]:hover {
  
 #slideshow1{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-    height: 240px;
-	width: 400px;
+    height: 31.25vw;
+	width: 70%;
 	border-radius: 8px;
 }
 
@@ -256,35 +260,36 @@ input[type=submit]:hover {
 
 #goal {
 	position:center;
-	height:180px;
-	width:320px;
+	height:14.0625vw;
+	width:25vw;
 	background-color:#000;
-	padding-left:20px;
-	border-radius:30px;
+	padding-left:1.7745vw;
+	border-radius:2.34375vw;
 }
 
 #reist {
   border: 3px solid black;
 	position:center;
-	height:180px;
-	width:320px;
+	height:14.0625vw;
+	width:25vw;
 	background-color:#fff;
-	padding-left:20px;
-	border-radius:30px;
+	padding-left:1.7745vw;
+	border-radius:2.34375vw;
 }
 
 #rodape {
 	width:100%;
     background-color: #111719;
-    height: 95px;
-	font-size:12px;
+    height: 16.43598615916955vh;
+	font-size:2.0761245674740483vh;
 }
 
 #rodtable {
 	color:#fff;
 	float:right;
-	padding-top:25px;
-	padding-right:100px;
+	padding-top:4.325259515570934vh;
+	margin-right:4vw;
+	margin-left:14.336917562724015vw;
 }
 
 #rodcont {
@@ -300,11 +305,11 @@ input[type=submit]:hover {
 	position: absolute;
 	text-align: center;
 	color: white;
-	height:60px;
-	width:60px;
+	height:10.380622837370241vh;
+	width:4.6875vw;
 	float:left;
-	margin-top:0.6%;
-	margin-left:2%;
+	margin-top:1.7301038062283738vh;
+	margin-left:4vw;
 }
 
 #btnsup {
@@ -313,20 +318,19 @@ input[type=submit]:hover {
 
 #bottom-centered {
   position: center;
-  margin-bottom: 5px;
+  margin-bottom: 0.8650519031141869vh;
 }
 
 .rodimg {
-	height:12px;
+	height:2.0761245674740483vh;
 }
 
 #footer {
 	width:100%;
 	color:#fff;
 	background-color: #111719;
-	height: 12px;
-	font-size:8px;
+	height: 2.0761245674740483vh;
+	font-size:1.3840830449826989vh;
 	float:bottom;
-	margin-top:0.05%;
-	padding-top:0.1%;
+	margin-top:0.17301038062283736vh;
 }
