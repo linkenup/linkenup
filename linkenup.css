@@ -284,14 +284,14 @@ h1 {
 #rodape {
 	width:100%;
     background-color: #111719;
-    height: 16.43598615916955vh;
-	font-size:2.0761245674740483vh;
+    height: 8.421875vw;
+	font-size:0.9375vw;
 }
 
 #rodtable {
 	color:#fff;
 	float:right;
-	padding-top:4.325259515570934vh;
+	margin-top:1.953125vw;
 	margin-left:14.336917562724015vw;
 }
 
@@ -311,7 +311,7 @@ h1 {
 	height:10.380622837370241vh;
 	width:4.6875vw;
 	float:left;
-	margin-top:1.7301038062283738vh;
+	margin-top:0.78125vw;
 }
 
 #btnsup {
@@ -324,7 +324,7 @@ h1 {
 }
 
 .rodimg {
-	height:2.0761245674740483vh;
+	height:0.9375vw;
 }
 
 #footer {
