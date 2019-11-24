@@ -1,0 +1,332 @@
+#cabecalho {
+	z-index:1;
+    width: 100%;
+    background-color:#111719;
+    position: fixed;
+}
+
+html {
+    scroll-behavior:SMOOth;
+    font-family:Arial;
+}
+
+body {
+    background-color:#fff;
+    margin:0;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 4% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #00a2aa;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00c4cc;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#logolinken {
+	width:20%;
+	margin-top:1%;
+}
+
+#idioma {
+	float:right;
+	margin-right:1.171875vw;
+}
+
+#bandeira {
+	width:3.90625vw;
+}
+
+#btnmenu {
+	margin-left:1.171875vw;
+}
+
+.flip-card {
+  width: 330px;
+  height: 150px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
+  z-index: -1;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front-c, .flip-card-front-d, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front-c {
+  background-color: #fff;
+}
+
+.flip-card-front-d {
+  background-color: #000;
+}
+
+.flip-card-back {
+  background-color: #00c4cc;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.portimg {
+	width:94%;
+	margin-top:15px;
+}
+
+.overlay {
+	z-index:1;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.6s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width:100%;
+  /*width: 15%;*/
+  text-align: center;
+  margin-top: 30px;
+  /*margin-left:42.2;*/
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #00c4cc;
+}
+ 
+#slideshow1{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    height: 240px;
+	width: 400px;
+	border-radius: 8px;
+}
+
+.slideshow1-container {
+  max-width: 800px;
+  margin: auto;
+  height: 480px;
+  width: 800px;
+  border: 5px;
+}
+
+.texto{
+	font-size:1.171875vw;
+	text-align:center;
+	margin-left:7%;
+	margin-right:7%;
+}
+.equipe{
+	height:25%;
+	width:50%;
+	position:center;
+	margin-left:25%;
+}
+
+.titulo {
+	font-size:3.125vw;
+	font-weight:bold;
+}
+
+.subtitu {
+	font-size:1.953125vw;
+	text-align:center;
+	font-weight:bold;
+}
+
+#goal {
+	position:center;
+	height:180px;
+	width:320px;
+	background-color:#000;
+	padding-left:20px;
+	border-radius:30px;
+}
+
+#reist {
+  border: 3px solid black;
+	position:center;
+	height:180px;
+	width:320px;
+	background-color:#fff;
+	padding-left:20px;
+	border-radius:30px;
+}
+
+#rodape {
+	width:100%;
+    background-color: #111719;
+    height: 95px;
+	font-size:12px;
+}
+
+#rodtable {
+	color:#fff;
+	float:right;
+	padding-top:25px;
+	padding-right:100px;
+}
+
+#rodcont {
+	text-align:center;
+}
+
+#rodcont a{
+	color:#fff;
+	text-decoration:none;
+}
+
+#rodsup {
+	position: absolute;
+	text-align: center;
+	color: white;
+	height:60px;
+	width:60px;
+	float:left;
+	margin-top:0.6%;
+	margin-left:2%;
+}
+
+#btnsup {
+	cursor: pointer;
+}
+
+#bottom-centered {
+  position: center;
+  margin-bottom: 5px;
+}
+
+.rodimg {
+	height:12px;
+}
+
+#footer {
+	width:100%;
+	color:#fff;
+	background-color: #111719;
+	height: 12px;
+	font-size:8px;
+	float:bottom;
+	margin-top:0.05%;
+	padding-top:0.1%;
+}
