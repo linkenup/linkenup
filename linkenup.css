@@ -154,7 +154,7 @@ input[type=submit]:hover {
   z-index: -1;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
