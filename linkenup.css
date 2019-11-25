@@ -147,7 +147,7 @@ input[type=submit]:hover {
   text-align: center;
   transition: transform 0.7s;
   transform-style: preserve-3d;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 0.15625vw 0.46875vw 0 rgba(0,0,0,0.3);
   z-index: -1;
 }
 
