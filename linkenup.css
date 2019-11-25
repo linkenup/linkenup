@@ -7,7 +7,7 @@
 
 html {
     scroll-behavior:SMOOth;
-    font-family:Arial;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -100,15 +100,18 @@ input[type=submit]:hover {
 
 #nomec {
 	font-size:1.5625vw;
+	font-family: 'Lato', sans-serif;
 }
 
 #email {
 	font-size:1.5625vw;
+	font-family: 'Lato', sans-serif;
 }
 
 #duvidas {
 	height:100px;
 	font-size:1.5625vw;
+	font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -240,37 +243,44 @@ h1 {
 }
 
 .texto{
-	font-size:1.171875vw;
+	font-size:1.571875vw;
 	text-align:center;
 	margin-left:7%;
 	margin-right:7%;
+	text-align:justify;
+	font-family: 'Lato', sans-serif;
 }
 .equipe{
 	height:25%;
 	width:50%;
 	position:center;
 	margin-left:25%;
+	font-family: 'Lato', sans-serif;
 }
 
 .titulo {
 	font-size:3.125vw;
 	font-weight:bold;
+	font-family: 'Lato', sans-serif;
 }
 
 .subtitu {
 	font-size:1.953125vw;
 	text-align:center;
 	font-weight:bold;
+	font-family: 'Lato', sans-serif;
 }
 
 .supsubtitu {
 	font-size:2.34375vw;
 	text-align:center;
 	font-weight:bold;
+	font-family: 'Lato', sans-serif;
 }
 
 .suplabels {
 	font-size:1.5625vw;
+	font-family: 'Lato', sans-serif;
 }
 
 #goal {
@@ -305,6 +315,7 @@ h1 {
 	float:right;
 	margin-left:14.336917562724015vw;
 	margin-top:0.390625vw;
+	margin-right:3.0441400304414vh;
 	font-size:1.171875vw;
 }
 
@@ -329,11 +340,13 @@ h1 {
 
 #btnsup {
 	cursor: pointer;
+	margin-left:1.3050570962479608vh;
 }
 
 #bottom-centered {
   position: center;
   margin-bottom: 0.8650519031141869vh;
+  margin-left:1.9575856443719413vh;
 }
 
 .rodimg {
@@ -349,3 +362,4 @@ h1 {
 	font-size:0.625vw;
 	float:bottom;
 }
+© 2019 GitHub, Inc.
