@@ -293,7 +293,7 @@ input[type=submit]:hover {
 }
 
 #reist {
-  border: 3px solid black;
+  	border: 0.20441400304414vh solid black;
 	position:center;
 	height:14.0625vw;
 	width:25vw;
