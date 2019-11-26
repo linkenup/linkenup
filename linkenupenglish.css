@@ -228,11 +228,6 @@ input[type=submit]:hover {
 	height:19.031141868512112vh;
 }
 
- .equipe {
-	box-shadow: 0 0.14641288433382138vw 0.29282576866764276vw 0 rgba(0,0,0,0.5);
-	border-radius: 0.5856515373352855vw;
-}
- 
 #slideshow1{
   box-shadow: 0 0.14641288433382138vw 0.29282576866764276vw 0 rgba(0,0,0,0.5);
     height: 31.25vw;
@@ -257,6 +252,8 @@ input[type=submit]:hover {
 	font-family: 'Lato', sans-serif;
 }
 .equipe{
+	box-shadow: 0 0.14641288433382138vw 0.29282576866764276vw 0 rgba(0,0,0,0.5);
+	border-radius: 0.5856515373352855vw;
 	height:25%;
 	width:50%;
 	position:center;
