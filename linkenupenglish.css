@@ -138,49 +138,49 @@ input[type=submit]:hover {
 	margin-left:1.171875vw;
 }
 
-.flip-card {
-  width: 25.78125vw;
-  height: 11.71875vw;
+.containerportc {
+	box-shadow: 0 0.15625vw 0.31350vw 0 rgba(0,0,0,0.5);
+	position: relative;
+	width: 100%;
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.7s;
-  transform-style: preserve-3d;
-  box-shadow: 0 0.15625vw 0.46875vw 0 rgba(0,0,0,0.3);
-  z-index: -1;
+.containerportd {
+	box-shadow: 0 0.15625vw 0.31350vw 0 rgba(200,200,200,0.5);
+	background-color:#000;
+	position: relative;
+	width: 100%;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.overlayportc {
+	position: absolute; 
+	bottom: 0; 
+	background: rgba(0, 0, 0, 0.8); /* Black see-through */
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	color: #fff;
+	font-size: 1.5625vw;
+	text-align: center;
 }
 
-.flip-card-front-c, .flip-card-front-d, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+.containerportc:hover .overlayportc {
+	opacity: 1;
 }
 
-.flip-card-front-c {
-  background-color: #fff;
+.overlayportd {
+	position: absolute; 
+	bottom: 0; 
+	background: rgba(255, 255, 255, 0.9); /* Black see-through */
+	width: 100%;
+	transition: .5s ease;
+	opacity:0;
+	color: #000;
+	font-size: 1.5625vw;
+	text-align: center;
 }
 
-.flip-card-front-d {
-  background-color: #000;
-}
-
-.flip-card-back {
-  background-color: #00c4cc;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-h1 {
-	font-size:2.34375vw;
+.containerportd:hover .overlayportd {
+	opacity: 1;
 }
 
 .portimg {
