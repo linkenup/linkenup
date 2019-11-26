@@ -121,7 +121,7 @@ input[type=submit]:hover {
 }
 
 #logolinken {
-	width:20%;
+	width:28%;
 	margin-top:1%;
 }
 
@@ -136,6 +136,7 @@ input[type=submit]:hover {
 
 #btnmenu {
 	margin-left:1.171875vw;
+	width:7%;
 }
 
 .containerportc {
