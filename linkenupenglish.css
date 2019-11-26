@@ -258,7 +258,18 @@ input[type=submit]:hover {
 	margin-left:25%;
 	font-family: 'Lato', sans-serif;
 }
-
+.textflyer {
+	font-size:1.953125vw;
+	text-align:center;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+}
+.imgfly{
+	height:12.5%;
+	width:25%;
+	position:center;
+	font-family: 'Lato', sans-serif;
+}
 .titulo {
 	font-size:3.125vw;
 	font-weight:bold;
@@ -294,7 +305,7 @@ input[type=submit]:hover {
 }
 
 #reist {
-  	border: 0.20441400304414vh solid black;
+  border: 3px solid black;
 	position:center;
 	height:14.0625vw;
 	width:25vw;
