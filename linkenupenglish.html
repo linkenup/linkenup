@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-18">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LinkenUp</title>
+	<link rel="stylesheet" type="text/css" href="linkenup.css" />
+	<link rel="icon" href="imagens/corrente.png">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body onload="slide1()">
+	<div id="myNav" class="overlay" style="width:0%;">
+		<div class="overlay-content">
+			<a href="#" onclick="openNav(); myFunction()">Home</a>
+			<a href="#emp" onclick="openNav(); myFunction()">Company</a>
+			<a href="#port" onclick="openNav(); myFunction()">Portfolio</a>
+			<a href="#rodape" class="Suporte" onclick="document.getElementById('id01').style.display = 'block'; openNav(); myFunction()">Suporte</a>
+		</div>
+	</div>
+	<div id="cabecalho">
+		<table id="tabela" border="0" width="100%" height="1px">
+			<tr>
+				<td width="7%">
+					<div id="container2" onclick="myFunction(); openNav()">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</td>
+				<td><center><a href="#"><img id="logolinken" src="imagens\cdevlud1.png" /></a></center></td>
+				<td width="7%">
+					<nav id="idioma">
+						<a href="index.html"><img id="bandeira" src="imagens/bra.png" /></a>
+					</nav>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<center><div class="titulo"><br><br><br><br>We work with C#, HTML, CSS, Javascript and SQL</div></center>
+	<br>
+	<section id="slideshow">
+		<center><a id="img"><img id="slideshow1"></a></center>
+
+		<script type="text/javascript">
+			function slide1() {
+				document.getElementById('slideshow1').src = "imagens/slide1.jpg";
+				setTimeout("slide2()", 5000);
+				document.getElementById('img').href = "#a1";
+			}
+			function slide2() {
+				document.getElementById('slideshow1').src = "imagens/slide2.gif";
+				setTimeout("slide3()", 5000);
+				document.getElementById('img').href = "#a2";
+			}
+			function slide3() {
+				document.getElementById('slideshow1').src = "imagens/slide3.jpg";
+				setTimeout("slide4()", 5000);
+				document.getElementById('img').href = "#a3";
+			}
+			function slide4() {
+				document.getElementById('slideshow1').src = "imagens/slide4.png";
+				setTimeout("slide5()", 5000);
+				document.getElementById('img').href = "#a4";
+			}
+			function slide5() {
+				document.getElementById('slideshow1').src = "imagens/slide5.png";
+				setTimeout("slide1()", 5000);
+				document.getElementById('img').href = "#a5";
+			}
+
+			function openNav() {
+				if (document.getElementById("myNav").style.width == "0%") {
+					document.getElementById("myNav").style.width = "100%";
+
+				}
+				else {
+					document.getElementById("myNav").style.width = "0%";
+				}
+			}
+
+			function alertaa() {
+				alert('Enviado com sucesso!');
+			}
+
+			var modal = document.getElementById('id01');
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+
+			function myFunction() {
+				document.getElementById("container2").classList.toggle("change");
+			}
+		</script>
+	</section>
+	<br><br id="emp"><br><br>
+	<hr>
+	<center><nav class="titulo">Company<br><br></nav></center>
+	<nav class="texto">
+		Founded in 2019, LinkenUp is a company that works in the creation and development of systems, always adjusting to customer requirements.
+		The creation started from a module completion work (MCW), where 5 members were united and made it.
+		Soon after, they decided to become partners and to realize the founding of LinkenUp.<br><br>
+	</nav>
+	<nav class="subtitu"><br><b>Our services:</b><br><br></nav>
+	<nav class="texto">
+		<br>- Creation Databases
+		<br>- Creation systems in C#
+		<br>- Creation websites, using HTML5, CSS3 and Javascript
+		<br>- Graphic design directed to the business sector<br><br><br><br>
+	</nav>
+	<nav class="subtitu"><b>Team:</b><br><br></nav>
+	<img class="equipe" src="imagens/equipe.jpg">
+	<br><br id="port"><br><br>
+	<hr>
+	<center><nav class="titulo">Portfolio</nav><br></center>
+	<br><br>
+	<nav class="subtitu">Company logos:</nav>
+	<br>
+	<center>
+		<table border="0">
+			<tr>
+				<td>
+					<div class="containerportc">
+						<img class="portimg" src="imagens/cdevluc.png">
+						<div class="overlayportc">Main logo<br>Light theme</div>
+					</div>
+				</td>
+				<td width="4.6875vw"></td>
+				<td>
+					<div class="containerportc">
+						<img class="portimg" src="imagens/lumonob.png">
+						<div class="overlayportc">Monocromatic logo<br>Light theme</div>
+					</div>
+				</td>
+				<td width="4.6875vw"></td>
+				<td>
+					<div class="containerportc">
+						<img class="portimg" src="imagens/luc2.png">
+						<div class="overlayportc">Logo variation 1<br>Light theme</div>
+					</div>
+				</td>
+			</tr>
+			<tr height="20.6875vw"></tr>
+			<tr>
+				<td>
+					<div class="containerportd">
+						<img class="portimg" src="imagens/cdevlud.png">
+						<div class="overlayportd">Main logo<br>Dark theme</div>
+					</div>
+				</td>
+				<td width="4.6875vw"></td>
+				<td>
+					<div class="containerportd">
+						<img class="portimg" src="imagens/lumonow.png">
+						<div class="overlayportd">Monocromatic logo<br>Dark theme</div>
+					</div>
+				</td>
+				<td width="4.6875vw"></td>
+				<td>
+					<div class="containerportd">
+						<img class="portimg" src="imagens/lud2.png">
+						<div class="overlayportd">Logo variation 1<br>Dark theme</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</center><br><br>
+	<div class="textflyer">
+		Our flyer:<br><br>
+		<img id="imgfly" src="imagens/flyer.png">
+	</div>
+	<div id="myModal" class="modal">
+		<span onclick="" class="close">&times;</span>
+		<img class="modal-content" id="img01">
+	</div>
+	<br><br><br>
+	<nav class="subtitu">Works done:</nav>
+	<br>
+	<center>
+		<table>
+			<tr>
+				<td id="goal">
+					<a href="http://linkenup/goal.github.io"><img src="imagens/goallogo.png" style="width:23.4375vw"></a>
+				</td>
+				<td width="4.6875vw"></td>
+				<td id="reist">
+					<img src="imagens/reistlogo.png" style="width:23.4375vw">
+				</td>
+			</tr>
+		</table>
+	</center>
+	<br><br>
+	<section id="rodape">
+		<div id="rodcont">
+			<div id="rodsup">
+				<img id="btnsup" src="imagens/supimg.png" onclick="document.getElementById('id01').style.display='block'" style="width:4.6875vw;">
+				<div id="bottom-centered">Support</div>
+			</div>
+			<div id="id01" class="modal">
+				<span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span>
+				<form class="modal-content">
+					<div class="container">
+						<nav class="supsubtitu">Support</nav><br>
+						<label class="suplabels" for="nomec">Full name</label>
+						<input type="text" id="nomec" name="nomec" placeholder="Ex: Davi Silva Oliveira">
+
+						<label class="suplabels" for="email">Email</label>
+						<input type="text" id="email" name="email" placeholder="Ex: linkenup.dev@gmail.com">
+
+						<label class="suplabels" for="duvidas">Ask a question</label>
+						<textarea id="duvidas" name="duvidas" placeholder="Write your questions and / or problems"></textarea>
+						<input type="submit" onclick="alertaa()" value="Send">
+					</div>
+				</form>
+			</div>
+			<table id="rodtable" border="0">
+				<tr>
+					<td><img class="rodimg" src="imagens/whatsicon.png"><br>+55 11 95198-2768</td>
+					<td width="4.6875vw"></td>
+					<td><img class="rodimg" src="imagens/gmailicon.png"><br>linkenup.dev@gmail.com</td>
+					<td width="4.6875vw"></td>
+					<td><a href="https://www.instagram.com/linkenup_dev/?hl=pt-br"><img class="rodimg" src="imagens/instaicon.png"><br>@linkenup</a></td>
+				</tr>
+				<tr>
+					<td><a href="https://br.linkedin.com/in/linken-up-a6b587197?trk=people-guest_profile-result-card_result-card_full-click"><img class="rodimg" src="imagens/linkedinicon.png"><br>LinkenUp</a></td>
+					<td width="4.6875vw"></td>
+					<td width="4.6875vw"></td>
+					<td width="4.6875vw"></td>
+					<td><a href="https://www.facebook.com/LinkenUp/"><img class="rodimg" src="imagens/faceicon.png"><br>LinkenUp</a></td>
+			</table>
+		</div>
+	</section>
+	<center><div id="footer">@Copyright2019 | All rights reserved.</div></center>
+
+	<script>
+		var img = document.getElementById("imgfly");
+		var modal = document.getElementById("myModal");
+		var modalImg = document.getElementById("img01");
+		img.onclick = function () {
+			modal.style.display = "block";
+			modalImg.src = this.src;
+		}
+
+		var span = document.getElementsByClassName("close")[0];
+
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+	</script>
+</body>
+</html>
