@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="scroll-behavior: smooth;">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<title>LinkenUp</title>
+	<link rel="icon" href="imagens/corrente.png">
+	
+	<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<link rel="stylesheet" type="text/css" href="index.css"/>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+  
+    function scrollFunction() {
+        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+            document.getElementById("logo-nav").style.height = "30px";
+        } else {
+            document.getElementById("logo-nav").style.height = "50px";
+        }
+    }
+
+</script>
+
+</head>
+<body>
+
+    <!--navbar-->
+
+    <div id="fixed-space" style="height:30px;"></div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #000;">
+        <a class="navbar-brand" href="#">
+            <img id="logo-nav" src="imagens/cdevlud.png" style="height:50px; transition: height 0.5s;" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#emp">Empresa</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#port">Portfólio</a>
+                </li>
+            </ul>
+
+            <!--<a class="nav-link text-white px-0 mr-3" style="background-color: #000; border: none; cursor: pointer;" data-toggle="modal" data-target="#loginModal">Funcionário</a>-->
+            <a href="ingles.html"><img src="imagens/usa.png" title="Change language" height="30" alt="" loading="lazy"></a>
+        </div>
+    </nav>
+
+    <!--navbar-->
+    <!--conteudo-->
+
+    <br>
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+    
+      <div class="carousel-inner">
+    
+    <ol id="emp" class="carousel-indicators">
+      <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselSite" data-slide-to="1"></li>
+      <li data-target="#carouselSite" data-slide-to="2"></li>
+    </ol>
+    <div id="overlay"></div>
+    
+        <div id="one" class="carousel-item active">
+    
+          <img src="imagens/office1.jpg" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover; filter:blur(2px);">
+    
+        <div class="carousel-caption text-center d-none d-block">
+            
+            <h1>O que sua empresa precisa?</h1>
+            <p>Confira abaixo nossos serviços oferecidos e encontre oque está procurando!</p>
+            <p><a class="btn btn-lg btn btn-outline-info"  href="#servicos" role="button">Confira</a></p>
+          </div>
+    
+        </div>
+        <div id="one" class="carousel-item">
+          <img src="imagens/office2.jpg" class="img-fluid d-block" style="object-fit: cover; filter:blur(2px);">
+    
+          <div class="carousel-caption text-center d-none d-block">
+            <h1>Veja nosso porfólio</h1>
+            <p>Conheca nosso portfólio e as empresas que fomos parceiros</p>
+            <p><a class="btn btn-lg btn btn-outline-info"  href="#port" role="button">Visualizar</a></p>
+          </div>
+    
+        </div>
+        <div  id="one" class="carousel-item">
+          <img src="imagens/office3.jpg" class="img-fluid d-block" style="object-fit: cover; filter:blur(2px);">
+    
+          <div class="carousel-caption text-center d-none d-block">
+            <h1>Nos conheça</h1>
+            <p>Conheça nossa equipe e a forma que trabalhamos!</p>
+            <p><a class="btn btn-lg btn btn-outline-info"  href="#time" role="button">Saiba mais</a></p>
+          </div>
+    
+        </div>
+      </div>
+    
+      <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Avançar</span>
+      </a>
+    </div>
+    </div>
+    <br>
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <center><h1>Por que somos os melhores?</h1></center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="container marketing" id="container marketing">
+    
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+    
+          <!--SISTEMAS-->
+          <div class="col-lg-4">
+            <svg id="sist" width="140" height="140" viewBox="0 0 16 16" class="bi bi-cpu" fill="currentColor" xmlns="http://www.w3.org/2000/svg" onmouseover="this.style.color='#00c4cc';return true;"
+            onmouseout="this.style.color='#212529';return true;">
+              <path fill-rule="evenodd" d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+            </svg>
+            <br>
+            <br>
+            <h2>Sistemas</h2>
+            <p>Sistemas otimizados e qualidade comprovada pelos usuários</p>
+            <hr id="ones" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="background-color:#7700ff;width: 120px;height: 5px">
+          </div><!-- /.col-lg-4 -->
+    
+          <!--SEGURANÇA-->
+          <div class="col-lg-4">
+            <svg id="seg" width="140" height="140" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" onmouseover="this.style.color='#6000ff';return true;"
+            onmouseout="this.style.color='#212529';return true;">
+              <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
+              <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+            </svg>
+            <br>
+            <br>
+            <h2>Segurança</h2>
+            <p>Segurança garantida em todo e qualquer serviço prestado</p>
+            <hr id="twos" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="background-color:#00c4cc;width: 120px;height: 5px">
+          </div><!-- /.col-lg-4 -->
+    
+          <!--CONFIABILIDADE-->
+          <div class="col-lg-4">
+            <svg id="conf" width="140" height="140" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg" onmouseover="this.style.color='#00c4cc';return true;"
+            onmouseout="this.style.color='#212529';return true;">
+              <path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/>
+            </svg>
+            <br>
+            <br>
+            <h2>Confiabilidade</h2>
+            <p>Confiança de 100% relatada pelos clientes e seus usuários</p>
+            <hr id="threes" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="background-color:#7700ff;width: 120px;height: 5px">
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>
+    
+    
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <center>
+      <hr class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="background-color:#dddddd;width: 80%;height: 0,5px">
+      <br>
+      <br>
+      <br>
+      <h1>Nossa história</h1>
+      <br>
+      <br>
+      <br>
+    <p style="font-size:120%; text-align: center; margin-left: 10%; margin-right: 10%;">
+      Fundada em 2019, a LinkenUp é uma empresa que trabalha na criação e desenvolvimento de sistemas, ajustada com os requesitios e pedidos do cliente.
+      O estopim para a criação da companhia ocorreu a partir de um trabalho de conclusão de módulo (TCM),
+      onde 5 integrantes do curso técnico de Desenvolvimento de Sistema se uniram. Logo após, decidiram tornar-se sócios e concretizar a fundação da LinkenUp.</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr id="servicos" class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="background-color:#dddddd;width: 80%;height: 0,5px">
+      <br>
+      <br>
+      <br>
+      <h1>Serviços oferecidos</h1>
+      <br>
+      <br>
+      <br>
+      <p style="font-size:120%; text-align: left; margin-left: 10%; margin-right: 10%;">
+        - Criação e manuntenção de Banco de Dados MySQL e SQL Server
+        <br>
+        <br>
+        - Criação e manuntenção de sistemas Windows Forms e ASP.NET em C#
+        <br>
+        <br>
+        - Criação e manuntenção de Aplicativos para Android
+        <br>
+        <br>
+        - Criação e manuntenção de sites utilizando HTML, CSS, Javascript e PHP
+        <br>
+        <br>
+        - Criação de Design gráfico direcionado ao ramo empresarial</p>
+      <br>
+      <br>
+      <br>
+    
+      <!--FLYER-->
+      <h2>Veja nosso flyer</h2>
+      <br>
+      <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#myModal">Visualizar</button>
+    
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-body">
+            <center>
+              <img src="imagens/flyer_final.png" class="img-fluid .d-block" alt="Responsive image" style="display:block ;object-fit: cover; width:100%;">
+            </center>
+          </div>
+        </div>
+      </div>
+    
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr id="time" class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="background-color:#dddddd;width: 80%;height: 0,5px">
+      <br>
+      <br>
+      <br>
+      <h1>Nosso time</h1>
+      <br>
+      <br>
+    </center>
+    
+    
+    
+    <!--NOSSO TIME-->
+    
+    
+    <div class="wrapper">
+    
+      <div class="our_team">
+          <div class="team_member" id="davi">
+            <div class="member_img">
+               <img src="imagens/davi.png" style="border-radius: 50%; object-fit: cover;" alt="our_team">
+              <div class="social_media">
+                 <div class="instagram item"><a class="fa fa-instagram" style="text-decoration:none;" href="https://www.instagram.com/davioliveira.jpg/?hl=pt-br" target="_blank"
+              onmouseover="this.style.color='#00c4cc';return true;"
+              onmouseout="this.style.color='#ffff';return true;"></a>
+            </div>
+                 <div class="instagram item"><a class="fa fa-google" style="text-decoration:none;" href="mailto:davioliveirahs@gmail.com"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+               </div>
+            </div>
+            <h3>Davi Oliveira</h3>
+            <span>Desenvolvedor Back-End e DBA</span>
+          </div>
+    
+          <div class="team_member" id="nicolas">
+            <div class="member_img">
+               <img src="imagens/nico.jpeg" style="border-radius: 50%; object-fit: cover;" alt="our_team">
+              <div class="social_media">
+                <div class="instagram item"><a class="fa fa-instagram" style="text-decoration:none;" href="https://www.instagram.com/pao_de_familia/?hl=pt-br" target="_blank"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+                <div class="linkedin item"><a class="fa fa-linkedin" style="text-decoration:none;" href="https://www.linkedin.com/in/nicolasprogramador/" target="_blank"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+               </div>
+            </div>
+            <h3>Nícolas Rizzoli</h3>
+            <span>Desenvolvedor Full Stack</span>
+          </div>
+    
+          <div class="team_member" id="bruno">
+            <div class="member_img">
+               <img src="imagens/bruno.png" style="border-radius: 50%; object-fit: cover;" alt="our_team">
+               <div class="social_media">
+                <div class="google item"><a class="fa fa-google" style="text-decoration:none;" href="mailto:brunomarcianosantos@gmail.com"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+                <div class="linkedin item"><a class="fa fa-linkedin" style="text-decoration:none;" href="https://www.linkedin.com/in/bruno-marciano-702a161b0/" target="_blank"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+               </div>
+            </div>
+            <h3>Bruno Marciano</h3>
+            <span>Analista de Sistemas e DBA</span>
+          </div>
+    
+          <div class="team_member" id="joao">
+            <div class="member_img">
+               <img src="imagens/joao.jpeg" style="border-radius: 50%; object-fit: cover;" alt="our_team">
+              <div class="social_media">
+                <div class="instagram item"><a class="fa fa-instagram" style="text-decoration:none;" href="https://www.instagram.com/joaodemutti/?hl=pt-br" target="_blank"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+                <div class="instagram item"><a class="fa fa-google" style="text-decoration:none;" href="mailto:joaofacindemutti@gmail.com"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+               </div>
+            </div>
+            <h3>João Facin</h3>
+            <span>Desenvolvedor Mobile</span>
+          </div>
+    
+          <div class="team_member" id="gui">
+            <div class="member_img">
+               <img src="imagens/baias.png" style="border-radius: 50%; object-fit: cover;" alt="our_team">
+              <div class="social_media">
+                <div class="instagram item"><a class="fa fa-instagram" style="text-decoration:none;" href="https://www.instagram.com/guilhermes_o9/?hl=pt-br" target="_blank" 
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+                <div class="instagram item"><a class="fa fa-google" style="text-decoration:none;" href="mailto:ghillierme.sas@gmail.com" 
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+               </div>
+            </div>
+            <h3>Guilherme Santos</h3>
+            <span>Analista de Sistemas e Infra</span>
+          </div>
+    
+          <div class="team_member" id="renan">
+            <div class="member_img">
+               <img src="imagens/renan.jpg" style="border-radius: 50%; object-fit: cover;" alt="our_team">
+              <div class="social_media">
+                <div class="instagram item"><a class="fa fa-instagram" style="text-decoration:none;" href="https://www.instagram.com/dramps11/?hl=pt-br" target="_blank" 
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+                <div class="instagram item"><a class="fa fa-google" style="text-decoration:none;" href="mailto:renandamprelli@gmail.com"
+                  onmouseover="this.style.color='#00c4cc';return true;"
+                  onmouseout="this.style.color='#ffff';return true;"></a>
+                </div>
+               </div>
+            </div>
+            <h3>Renan Damprelli</h3>
+            <span>Desenvolvedor Front-End e Designer</span>
+          </div>
+      </div>
+    </div>
+    
+    <center>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr id="port" class="accent-2 mb-4 mt-0 d-inline-block mx-auto" style="background-color:#dddddd;width: 80%;height: 0,5px">
+      <br>
+      <br>
+      <br>
+      <h1>Portfólio</h1>
+      <br>
+      <br>
+      <br>
+    </center>
+    
+    
+    
+    <div class="album py-5">
+      <div class="container">
+    
+        <div class="row">
+          <div class="col-md-4" style="margin-left:10%; margin-right:5%;">
+            <div class="card mb-4 shadow-sm">
+                <div id="carouselSite2" class="carousel slide" data-ride="carousel">
+    
+                    <div class="carousel-inner">
+                    
+                    <ol id="emp" class="carousel-indicators">
+                      <li data-target="#carouselSite2" data-slide-to="0" class="active bg-dark"></li>
+                      <li data-target="#carouselSite2" data-slide-to="1" class=" bg-dark"></li>
+                      <li data-target="#carouselSite2" data-slide-to="2" class=" bg-dark"></li>
+                      <li data-target="#carouselSite2" data-slide-to="3" class=" bg-dark"></li>
+                      <li data-target="#carouselSite2" data-slide-to="4" class=" bg-dark"></li>
+                    </ol>
+                    
+                        <div class="carousel-item active" id="second">
+                    
+                          <img src="imagens/reist.png" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+                    
+                        <div class="carousel-item" id="second">
+                    
+                          <img src="imagens/splash.png" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+    
+                        <div class="carousel-item" id="second">
+                    
+                          <img src="imagens/home.jpg" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+    
+                        <div class="carousel-item" id="second">
+                    
+                          <img src="imagens/cad.jpg" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+    
+                        <div class="carousel-item" id="second">
+                    
+                          <img src="imagens/vendas.png" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            
+              <div class="card-body">
+                <p class="card-text">Reist é uma empresa de turismo nacional, a qual desenvolvemos um sistema de gerenciamento no ano de 2019.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-left:10%; margin-right:5%;">
+            <div class="card mb-4 shadow-sm">
+                <div id="carouselSite3" class="carousel slide" data-ride="carousel">
+    
+                    <div class="carousel-inner">
+                    
+                    <ol id="emp" class="carousel-indicators">
+                      <li data-target="#carouselSite3" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselSite3" data-slide-to="1"></li>
+                      <li data-target="#carouselSite3" data-slide-to="2"></li>
+                      <li data-target="#carouselSite3" data-slide-to="3"></li>
+                      <li data-target="#carouselSite3" data-slide-to="4"></li>
+                    </ol>
+                    
+                        <div class="carousel-item active" id="second">
+                    
+                          <img src="imagens/1.1.png" class="img-fluid .d-block" style="object-fit: cover;">
+                      </div>
+                    
+                        <div class="carousel-item" id="second">
+                    
+                          <img id="img01" src="imagens/kiti.jpeg" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+    
+                        <div class="carousel-item" id="second">
+                    
+                          <img id="img01" src="imagens/slide1.jpeg" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+    
+                        <div class="carousel-item" id="second">
+                    
+                          <img id="img01" src="imagens/slide2.jpeg" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+    
+                        <div class="carousel-item" id="second">
+                    
+                          <img id="img01" src="imagens/slide3.jpeg" class="img-fluid .d-block" alt="Responsive image" style="object-fit: cover;">
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            
+              <div class="card-body">
+                <p class="card-text">Goal é uma empresa que vende produtos e artigos esportivos online. Desenvolvemos um site de compras no ano de 2019.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="jooj" class="container">
+      <div class="d-flex justify-content-center">
+          <button class="btn btn-outline-info btn-sm" onclick="abrirJooj()">Abrir jogo</button>
+      </div>
+    </div>
+    <br>
+
+    <!--conteudo-->
+    <!--rodape-->
+    <footer class="page-footer font-small unique-color-dark" style="background-color:#161616;">
+
+        <div style="background-color: #00c4cc;">
+          <div class="container">
+      
+            <!-- Grid row-->
+            <div class="row py-1 d-flex align-items-center">
+            </div>
+            <!-- Grid row-->
+      
+          </div>
+        </div>
+      
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-4">
+      
+          <!-- Grid row -->
+          <div class="row mt-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-3">
+      
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold" style="color:#ffff;">Suporte</h6>
+              <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto" style="background-color:#7700ff;width: 60px;height: 3px">
+      <br>
+              <!--Enviar Formulário-->
+              <button data-toggle="modal" data-target="#contatoModal" style="background-color: #161616; border: 0;">
+                <a id="icosup" style=" font-size: xx-large;text-decoration:none;color:#fff;"onmouseover="this.style.color='#00c4cc';return true;"
+                onmouseout="this.style.color='#ffff';return true;">
+                <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-gear" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 0 1 4.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 0 1-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 0 1 1.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 0 1 2.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 0 1 2.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 0 1 1.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 0 1-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 0 1 8.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 0 0 1.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 0 0 .52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 0 0-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 0 0-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 0 0-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 0 0-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 0 0 .52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 0 0 1.255-.52l.094-.319z"/>
+                  <path fill-rule="evenodd" d="M8 5.754a2.246 2.246 0 1 0 0 4.492 2.246 2.246 0 0 0 0-4.492zM4.754 8a3.246 3.246 0 1 1 6.492 0 3.246 3.246 0 0 1-6.492 0z"/>
+                </svg><br>
+                <a id="txtsup" style="text-decoration:none;color:#fff; font-size: smaller;">SAC</a>
+              </a>
+              </button>
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            
+            <div class="modal fade" id="contatoModal" tabindex="-1" role="dialog" aria-labelledby="contatoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="contatoModalLabel">Contato</h5>
+                      <button type="button" class="close" style="color: #6d00ff;" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <form name="formcont" method="post" action="">
+                      <div class="modal-body">
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input name="txtnome" class="form-control" required id="nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input name="txtemail" type="email" class="form-control" required id="contemail">
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea class="form-control" required id="formmensagem" rows="3"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="submit" class="btn btn-info btn-block">Enviar</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+      
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" style="color:#ffff;">Redes Sociais</h6>
+              <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto" style="background-color:#7700ff;width: 60px;height: 3px">
+      
+              <!--Instagram-->
+              <p style="color:#ffff; font-size: smaller;">
+                <a href="https://www.instagram.com/linkenup.dev/?hl=pt-br" target="_blank" class="fa fa-instagram" style="color:#ffff; margin-right: 5px;text-decoration:none;" 
+                onmouseover="this.style.color='#00c4cc';return true;"
+                onmouseout="this.style.color='#ffff'; return true;"></a></a>
+                <a href="https://www.instagram.com/linkenup.dev/?hl=pt-br" target="_blank" style="text-decoration:none;color:#ffff;">
+              linkenup.dev
+                </a>
+              </p>   
+              <!--Facebook-->
+              <p style="color:#ffff; font-size: smaller;"> 
+                <a href="https://www.facebook.com/LinkenUp" target="_blank" class="fa fa-facebook" style="color:#ffff; margin-right: 9px;text-decoration:none;"
+                onmouseover="this.style.color='#00c4cc';return true;"
+                onmouseout="this.style.color='#ffff';return true;"></a></a>
+                <a href="https://www.facebook.com/LinkenUp" target="_blank" style="text-decoration:none;color:#ffff;">
+              LinkenUp
+              </a>
+              </p>
+              <!--LinkedIn-->
+              <p style="color:#ffff; font-size: smaller;">
+                <a href="https://www.linkedin.com/company/linkenup" target="_blank" class="fa fa-linkedin" style="color:#ffff; margin-right: 5px;text-decoration:none;"
+                onmouseover="this.style.color='#00c4cc';return true;"
+                onmouseout="this.style.color='#ffff';return true;"></a>
+                <a href="https://www.linkedin.com/company/linkenup" target="_blank" style="text-decoration:none;color:#ffff;">
+                LinkenUp
+                  </a>
+              </p>
+        
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" style="color:#ffff;">Contato</h6>
+              <hr class="deep-purple accent-2 mb-3 mt-0 d-inline-block mx-auto" style="background-color:#7700ff;width: 60px;height: 3px">
+      <!--Localização-->
+              <p style="color:#ffff; font-size: smaller;">
+                <a href="https://goo.gl/maps/7LjmHY2uaUCvdbf59" target="_blank" style="text-decoration:none;color:#ffff;">
+                <svg onmouseover="this.style.color='#00c4cc';return true;"
+                onmouseout="this.style.color='#ffff';return true;" width="1em" height="1em" viewBox="0 0 16 16" style="color:#ffff; margin-right: 5px;" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                Rua Guaipá, 678 - Vila Leopoldina, São Paulo - SP
+              </a>
+              </p>  
+      <!--Email-->
+              <p style="color:#ffff; font-size: smaller;">
+                <a href="mailto:linkenup.dev@gmail.com"style="text-decoration:none;color:#ffff;">
+                <svg onmouseover="this.style.color='#00c4cc';return true;"
+                onmouseout="this.style.color='#ffff';return true;" width="1em" height="1em" viewBox="0 0 16 16" style="color:#ffff; margin-right: 5px;" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                </svg>
+                linkenup.dev@gmail.com
+              </a>
+              </p>
+      <!--Telefone-->
+              <p style="color:#ffff; font-size: smaller;">
+                <a href="https://api.whatsapp.com/send?phone=5511964102510" target="_blank" class="fa fa-whatsapp" style="color:#ffff; margin-right: 5px;text-decoration:none;"
+                onmouseover="this.style.color='#00c4cc';return true;"
+                onmouseout="this.style.color='#ffff';return true;"></a>
+                <a href="https://api.whatsapp.com/send?phone=5511964102510" target="_blank" style="text-decoration:none;color:#ffff;">
+                  +55 11 96410-2510
+                </a>
+              </p>
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-2" style="color:#ffff; font-size: 12px;">@ 2020 LinkenUp | Todos os direitos reservados.
+        </div>
+        <!-- Copyright -->
+      
+    </footer>
+    <!--rodape-->
+
+    <script>
+    
+        var jooj = document.getElementById('jooj');
+        function abrirJooj(){
+            jooj.innerHTML = '<button type="button" class="close btn-lg text-danger" onclick="fecharJooj()">&times;</button><iframe class="rounded-lg" src="https://paodefamilia.github.io/jooj/" style="border: medium solid #00c4cc; width:100%; height: 400px;">Seu navegador não suporta iframes.</iframe><a class="btn btn-sm btn-outline-info" href="https://paodefamilia.github.io/jooj/" target="_blank">Visite o site</a><style>#jooj > a {  opacity: 0.3;  position:relative;  float: right;  right:10px;  bottom:45px;  transition: 0.5s;}#jooj > a {  opacity: 1;} </style>';
+        }
+        function fecharJooj(){
+            jooj.innerHTML = '<div class="d-flex justify-content-center"><button class="btn btn-outline-info btn-sm" onclick="abrirJooj()">Abrir jogo</button></div>';
+        }
+    
+    </script>
+</body>
+</html>
